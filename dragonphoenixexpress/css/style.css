@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -933,6 +934,12 @@ p {
   #fh5co-events {
     padding: 5em 0;
   }
+
+  .gallery-imgs {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+  }
 }
 #fh5co-events .fh5co-event {
   background: #fff;
@@ -1365,7 +1372,8 @@ p {
 .gallery-imgs {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallery-imgs img {
