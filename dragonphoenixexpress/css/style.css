@@ -219,7 +219,7 @@ p {
   margin: 0;
   padding: 0;
   font-family: "Playfair Display", serif;
-  font-size: 300px;
+  font-size: 150px;
   font-weight: 700;
   font-style: italic;
   color: #fff;
@@ -230,8 +230,17 @@ p {
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
     font-size: 100px;
+    margin-top: 100px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  #fh5co-home .flexslider .fh5co-text h1 {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+}
+
 #fh5co-home .flexslider .fh5co-text h2 {
   margin: 0;
   padding: 0;
