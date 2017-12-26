@@ -1362,4 +1362,15 @@ p {
   padding-bottom: 40px;
 }
 
+.gallery-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.gallery-imgs img {
+  height: 150px;
+  margin: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
