@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script type="text/javascript">
+try{
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        window.location.href="http://phone.DRAGONPHOENIXEXPRESS.COM/";
+    }else{
+        window.location.href="http://main.DRAGONPHOENIXEXPRESS.COM/";
+    }
+}catch(e){}
+</script>
+</body>
+</html>
